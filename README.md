@@ -1,7 +1,9 @@
+https://github.com/gopinathassrj/prometheus-custom-python
+
 # prometheus-custom-python
 prometheus-custom-python demo
 
-This repo published to monitor the customer URL using Python along with Prometheus montioring and exported to Grafana
+This repo published to monitor the customer URL using Python along with Prometheus monitoring and Dashboard to Grafana
 
 
 Pre-requesities:
@@ -70,6 +72,16 @@ DEBUG ---- Method Called
 DEBUG ---- Method Called
 DEBUG ---- Method Called
 
+
 9. Access the Prometheus url with port number 9090, check the targets, Metrics and Graphs
 
-10. Create a dashboard in grafanna accessing the url with port number 3030
+ 
+ 
+
+ 
+
+10. Create a dashboard in Grafana accessing the url with port number 3000
+
+ 
+
+
