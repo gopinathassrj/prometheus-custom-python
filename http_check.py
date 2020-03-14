@@ -12,11 +12,6 @@ def check_url(web_url):
     else:
         return 1
 
-#url1 = check_url("https://httpstat.us/503")
-#url2 = check_url("https://httpstat.us/200")
-
-#print(url1)
-#print(url2)
 
 class CustomCollector(object):
     def __init__(self):
@@ -28,7 +23,7 @@ class CustomCollector(object):
         yield g
 
 if __name__ == '__main__':
-    start_http_server(8000)
+    start_http_server(9090)
     REGISTRY.register(CustomCollector())
     collector_obj = CustomCollector()
     while True:
