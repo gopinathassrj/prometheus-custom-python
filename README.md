@@ -19,8 +19,7 @@ Execution steps:
 Please follow step by steps instruciton given below
 1. git init 
 2. git clone https://github.com/gopinathassrj/prometheus-custom-python.git
-3. 
-macbook:repo mackboo$ ls
+3. $ ls
 Vagrantfile	master-playbook.yml	node-playbook.yml	postinstall.sh		updatehosts.sh
 
 4. $ vagrant up
